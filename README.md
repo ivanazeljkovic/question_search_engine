@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 ## Project Running
 ### Dataset 
-Navigate to **/data/raw** directory and store **questions.json** file with questions corpus.
+Inside root directory create directory **data** and its nested directory **raw**. On path **/data/raw** store questions corpus file with name **questions.json**.
 The structure of corpus file should be the same as shown in the example below:
 ```
 {"id": 1, "question": "what is TF-IDF?", "tags": "<nlp>"}
