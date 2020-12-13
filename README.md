@@ -69,6 +69,7 @@ The structure of output should be the same as shown in the example below:
 From root directory run command for running a particular group of Unit tests:
 ```
 python -m tests.test_preprocessor
+python -m tests.test_question_search_engine
 python -m tests.test_tf_idf_vectorizer
 python -m tests.test_utils
 ```
